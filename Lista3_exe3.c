@@ -12,3 +12,11 @@ struct Cadastro* criarCadastro(int N){
     }
     return vet;
 }
+
+int main(){
+    int N;
+     scanf("%d", &N);
+      struct Cadastro *c = criarCadastro(N);
+       free(c);
+        return 0;
+    }
